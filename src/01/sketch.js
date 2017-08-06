@@ -1,0 +1,16 @@
+function setup() {
+  createCanvas(windowWidth-20, windowHeight-20);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX, mouseY, 80, 80);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth-20, windowHeight-20);
+}
