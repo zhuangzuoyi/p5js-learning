@@ -20,3 +20,4 @@ function draw() {
 function windowResized() {
   resizeCanvas(windowWidth-20, windowHeight-20);
 }
+
